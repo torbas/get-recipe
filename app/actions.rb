@@ -10,7 +10,7 @@ get '/recipes' do
 end
 
 get '/recipe/:id' do
-  url = URI.escape("http://food2fork.com/api/get?key=9bd95bea53f5b286b7ffbaa71fb5cbe5&rid=#{params[:id]}")
+  url = URI.escape("http://food2fork.com/api/get?key=9bd95bea53f5b286b7ffbaa71fb5cbe5&rId=#{params[:id]}")
   uri = URI.parse(url)
   Net::HTTP.get(uri).to_json
 end
