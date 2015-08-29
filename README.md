@@ -2,6 +2,7 @@ Get Recipe
 =============
 
 The app connects to the Food2Fork Api to allow people to search for recipes based on keywords.
+Sinatra being used as a proxy in order to query and receive data.
 
 ## Getting Started
 
