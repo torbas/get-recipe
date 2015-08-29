@@ -1,7 +1,7 @@
-Sinatra
+Get Recipe
 =============
 
-Brought to you by Lighthouse Labs
+The app connects to the Food2Fork Api to allow people to search for recipes based on keywords.
 
 ## Getting Started
 
